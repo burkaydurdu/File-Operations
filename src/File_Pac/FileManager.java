@@ -76,9 +76,8 @@ public class FileManager {
 			inputStream= new FileInputStream(file);
 			byte dat;
 			String data="";
-			while((dat=(byte)inputStream.read())!=-1){
+			while((dat=(byte)inputStream.read())!=-1)
 				data+=(char)dat;
-			}
 			inputStream.close();
 			return data;
 		} catch (IOException e) {

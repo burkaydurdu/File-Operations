@@ -10,7 +10,7 @@ public class StartMain {
 		manage.createFile();
 		char [] data = {'B','U','R','K','A','Y','D','U','R','D','U'};
 		String data_L1="bu bir deneme yazisidir";
-		
+/*
 		ArrayList<String> hobies = new ArrayList<String>();
 		hobies.add("Reading Book");
 		hobies.add("watching Film");
@@ -22,7 +22,7 @@ public class StartMain {
 		System.out.println( manage.readingOfObjectFile());
 		
 		manage.writingOfByteFile(data);
-		System.out.println(manage.readingOfByteFile());
+		System.out.println(manage.readingOfByteFile());*/
 		
 		manage.writingOfCharacterFile(data);
 		System.out.println(manage.readingOfCharacterFile());
